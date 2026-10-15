@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="khalid.jpg" type="image/x-icon">
+
+    <!-- bootstrap -->
+     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  
+    <!-- google font -->
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2
+     family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+   <!-- font-awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    
+   <!-- style.css -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Advance project</title>
+</head>
+<body>
+    <header class="sticky-top shadow-sm">
+        <nav class="navbar navbar-light navbar-expand-lg py-3">
+            <div class="container-fluid px-4 px-lg-5">
+
+                <!-- brand/logo -->
+                <a class="navbar-brand fw-bold fs-4" href="#home">
+                    Khalid <span class="text-warning">.Dev</span>
+                </a>
+
+                <!-- mobile hamburger -->
+                 <button
+                 class="navbar-toggler"
+                 type="button"
+                 data-bs-toggle="collapse"
+                 data-bs-target="#mainNavbar"
+                 aria-controls="mainNavbar"
+                 aria-expanded="false"
+                 aria-label="Toggle navigation"
+                 >
+                 <span class="navabr-toggler-icon"></span>
+                </button>
+                 <!-- navigation links -->
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3 mt-3 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skill">Skill</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#project">Project</a>
+                        </li>
+                        <li class="nav-item ms-lg-2">
+                            <a class="btn btn-outline-warning btn-sm px-3 py-2 fw-semibold" href="#contact">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </nav>
+    </header>
+    <!-- herosection -->
+    <section class="hero-section pt-0" id="home">
+        <div class="container pt-0 pb-5">
+            <div class="row align-items-center g-4">
+
+                <div class="col-12 col-lg-7 hero-content">
+
+                    <!-- Inside your Hero Section (Left Column) -->
+                    <p class="role-intro text-uppercase fw-bold mb-2 small" style="color: #af9164; letter-spacing: 2px;">
+                        I'm a <span id="typing-text"></span><span class="typing-cursor">|</span>
+                    </p>
+                    
+                    <h1 class="hero-name">
+                        <span class="hover-name">Khalid Jimoh</span>
+                    </h1>
+                    <p class="hero-desc">
+                        I'm passionate about turnning ideas into reality. I design clean, mobile-first resoponsive layout with HTML, CSS and Bootstrap and make them interactive using Javascript.
+                    </p>
+
+                    <div class="hero-action mt-4">
+                        <a href="#project" class="view-project-link">
+                            <span>View Projects</span>
+                            <i class="fa-solid fa-arrow-right-long arrow-icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- image -->
+                 <div class="col-12 col-lg-5 text-center hero-img-col">
+                    <img
+                    class="profile-img"
+                    src="my image.jpg"
+                    alt="khalid"
+                    >
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section py-5" id="about">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="head">
+                    About Me <i class="fa-solid fa-user ms-2 icon-accent"></i>
+                    
+                </h2>
+                <p class="paragraph">Learn more about my coding life Journey </p>
+            </div>
+
+            <div class="row align-items-center g-5">
+                <div class="col-12 col-lg-5 text-center">
+                    <img
+                    class="about-img"
+                     src="my face.jpeg" 
+                     alt="boy"
+                     >
+                </div>
+
+                <div class="col-12 col-lg-7">
+                    <h2 class="display-6 fw-bold text-dark mb-3">
+                        Behind the code &amp; The Journey.
+                    </h2>
+
+                    <p class="text-uppercase fw-bold small">
+                        Learning to code wasn't a smooth ride. Moving beyond simple page structure into responsive grid and Javascript login come with countless hours of debugging, self-doubt, trial and error. Rather then backing down from the faustration, I treated every broken layout and syntax error as a lesson i problem solving.That persistence shaped how i build today.I now craft clean, responsive, and user-centered website from scratch using HTML5, CSS, Bootstrap5, and Javascript with a strong focus on clean structure, cross device compatibility and smooth interactive features.
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="skills-section py-5 " id="skill">
+        <div class="container py-4">
+
+            <div class="text-center mb-5">
+                <h2 class="display-6 fw-bold text-dark">My Skill</h2>
+                <p class="text-secondary samll text-uppercase fw-semibold" style="letter-spacing: 1.5px; color: #af9164;">
+                    What I bring to the table
+                </p>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="skill-card p-4 text-center h-100">
+                        <div class="skill-icon-box mb-3">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Web Development</h4>
+                        <p class="text-secondary small leading-relaxed">
+                            Building clean, seamatic, and well structured web application from scratch using HTML5, CSS, and Bootstrap5 with maintainable code.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="skill-card p-4 text-center h-100">
+                        <div class="skill-icon-box">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Responsive Design</h4>
+                        <p class="text-secondary small leading-relaxed">
+                            Designing mobile-first interfaces that adapt seamlessly across phones, tablets, and desktop for fluid, touch-friendly user experience.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="skill-card p-4 text-center h-100">
+                        <div class="skill-icon-box">
+                            <i class="fa-solid fa-bolt"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Interactive Logic</h4>
+                        <p class="text-secondary small leading-relaxed">
+                            Bringing static pages to life with modern Javascript. Handling dynamic events, Live calculations, and intergrating REST APIs with `fetch()` and  `async\await`.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- project section -->
+
+    <section class="project-section py-5" id="project">
+        <div class="container py-4">
+            
+            <div class="text-center mb-4">
+                <h2 class="display-6 fw-bold text-dark">Featured projects</h2>
+                <p class="text-uppercase fw-semibold small" style="letter-spacing: 1.5px; color: #af9164 !important;">
+                    Explore My Work
+                </p>
+            </div>
+
+            <!-- the filter tabs -->
+            <div class="d-flex justify-content-center flex-wrap gap-2 mb-5">
+                <button class="filter-btn active" data-filter="all">All Project(4)</button>
+                <button class="filter-btn" data-filter="bootstrap">Bootstrap 5 (2)</button>
+                <button class="filter-btn" data-filter="pure-css">Pure HTML &amp; Css (2)</button>
+            </div>
+
+            <div class="row g-4" id="projectsGrid">
+ 
+                <div class="col-12 col-lg-6 project-item" data-category="bootstrap">
+                    <div class="project-card h-100">
+                        <div class="project-img-box">
+                            <img src="apex fitness.png" alt="apex">
+                        </div>
+                        <div class="project-body p-4">
+                            <span class="category-badge">Bootstrap 5</span>
+                            <h4 class="fw-bold mt-2 mb-2 text-dark">Apex Fitness</h4>
+                            <p class="text-secondary small mb-4">
+                                Mordern fitness club landing page featuring responsive grid layouts, weekly class schedule table, and trial memebership form built with Bootstrap5.
+                            </p>
+                            <div class="d-flex flex-wrap gap-2 mb-4">
+                                <span class="tech-pill">HTML5</span>
+                                <span class="tech-pill">CSS3</span>
+                                <span class="tech-pill">Bootstrap 5</span>
+                            </div>
+                            <div class="d-flex gap-3">
+                                <a href="#" class="btn btn-project-primary flex-fill">Live Demo</a>
+                                <a href="https://github.com/Khaleed2480/apex-fitness.git" target="_blank" class="btn btn-project-outline flex-fill">
+                                    <i class="fa-brands fa-github me-1"></i> Code
+                                </a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="col-12 col-lg-6 project-item" data-category="bootstrap">
+                    <div class="project-card h-100">
+                        <div class="project-img-box">
+                            <img src="bhr store.png" alt="bhr">
+                        </div>
+
+                        <div class="project-body p-4">
+                            <span class="category-badge">Javascript &amp; E-commerce</span>
+                            <h4 class="fw-bold mt-2 text-dark">BHR Sweet Wear</h4>
+                            <p class="text-secondary small mb-3">
+                                Streetwear e-comerce store with a interactive cart counter, live location-based delivery calculation, and promo discount verification logic.
+                            </p>
+
+                            <div class="d-flex flex-wrap gap-2 mb-4">
+                                <span class="tech-pill">Javascript</span>
+                                <span class="tech-pill">Bootstrap5</span>
+                                <span class="tech-pill">DOM Events</span>
+                            </div>
+                            <div class="d-flex gap-3">
+                                <a href="#" class="btn btn-project-primary flex-fill">Live Demo</a>
+                                <a href="https://github.com/Khaleed2480/bhr-store.git" target="_blank" class="btn btn-project-outline flex-fill">
+                                    <i class="fa-brands fa-github me-1"></i> Code
+                                </a>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6 project-item" data-category="pure-css">
+                    <div class="project-card h-100">
+                        <div class="project-img-box">
+                            <img src="medium.png" alt="medium">
+                        </div>
+
+                        <div class="project-body p-4">
+                            <span class="category-badge">Pure HTML &amp; CSS</span>
+                            <h4 class="fw-bold mt-2 mb-2  text-dark">Medium Web Page</h4>
+                            <p class="text-secondary small mb-3">
+                                A clean  mobile-first reading platform layout built puerly with semantic HTML5 and custom CSS, focusing on typography, clean spacing, and fluid cross-device scaling.
+                            </p>
+                            <div class="d-flex flex-wrap gap-2 mb-4">
+                                <span class="tech-pill">HTML5</span>
+                                <span class="tech-pill">CSS3</span>
+                                <span class="tech-pill">Flexbox</span>
+                            </div>
+                            <div class="d-flex gap-3">
+                                <a href="#" class="btn btn-project-primary flex-fill">Live Demo</a>
+                                <a href="https://github.com/Khaleed2480/medium.git " target="_blank" class="btn btn-project-outline flex-fill">
+                                    <i class="fa-brands fa-github me-1"></i> Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6 project-item" data-category="pure-css">
+                    <div class="project-card h-100">
+                        <div class="project-img-box">
+                            <img src="portfolio.png" alt="port">
+                        </div>
+
+                        <div class="project-body p-4">
+                            <span class="category-badge">Pure HTML5 &amp; CSS</span>
+                            <h4 class="fw-bold mt-2 mb-2 text-dark">Portfolio website</h4>
+                            <p class="text-secondary small mb-3">
+                                personal showcase website built with pure HTML and custom CSS, featuring css keyframe animation, smooth hover transitions, and Font Awesome iconography.
+                            </p>
+                            <div class="d-flex flex-wrap gap-2 mb-4">
+                                <span class="tech-pill">HTML5</span>
+                                <span class="tech-pill">CSS3</span>
+                                <span class="tech-pill">Transitions</span>
+                            </div>
+                            <div class="d-flex gap-3">
+                                <a href="#" class="btn btn-project-primary flex-fill">Live Demo</a>
+                                <a href="https://github.com/Khaleed2480/portfolio.git" target="_blank" class="btn btn-project-outline flex-fill">
+                                    <i class="fa-brands fa-github me-1"></i> Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section py-5" id="contact">
+        <div class="container py-4">
+
+
+            <div class="text-center mb-5">
+                <h2 class="display-6 fw-bold text-dark">Get In Touch</h2>
+                <p class="text-uppercase fw-semibold small" style="letter-spacing: 1.5px; color: #af9164 !important;">
+                    Let's build something together
+                </p>
+            </div>
+
+            <div class="row g-5 align-items-center justify-content-center">
+
+                <div class="col-12 col-lg-5">
+                    <h3 class="fw-bold mb-3 text-dark">Let's talk about your next project</h3>
+                    <p class="text-secondary leading-relaxed mb-4">
+                        I'm currently available for freelance projects, frontend roles, and collaborations. Send a message, and i'll get back to you within 24hours.
+                    </p>
+
+                    <div class="d-flex align-items-center gap-3 mb-3">
+                        <div class="contact-icon-circle" >
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div>
+                            <span class="small text-secondary d-block">Email</span>
+                            <strong class="text-dark">jimohkhalid70@gmail.com</strong>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center gap-3 mb-4">
+                        <div class="contact-icon-circle">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <span class="small text-secondary d-block">Location</span>
+                            <p class="text-dark">Nigeria (Remote Worldwide)</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center gap-3 mb-3">
+                        <div class="contact-icon-circle">
+                            <i class="fa-brands fa-phone"></i>
+                        </div>
+
+                        <div>
+                            <span class="small text-secondary d-block">Whatsapp</span>
+                            <strong class="text-dark">+234 9158722146</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-7">
+                    <div class="contact-card p-4 p-mb-5">
+
+                          <!-- cookies greeting: appear if visitor has message before -->
+                          <div id="cookieGreeting" class="alert alert-secondary py-2 px-3 small d-none mb-3">
+                            👋 Welcome back, <strong id="savedName">Friend</strong>
+                         </div>
+
+                        <form id="contactForm">
+                            <div class="row g-3">
+
+                                <div class="col-12 col-md-6">
+                                    <label for="senderName" class="form-label small fw-bold">Your Name</label>
+                                    <input type="text" id="senderName" class="form-control contact-input" placeholder="e.g Dawin Nelson" required>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <label for="senderEmail" class="form-label small fw-bold">Your Mail</label>
+                                    <input type="email"  id="senderEmail" class="form-control contact-input" placeholder="name@example.com" required>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <label for="msgSubject" class="form-label small fw-bold">Project / Subject</label>
+                                    <input type="text" id="msgSubject" class="form-control contact-input" placeholder="e.g. E-commerce website project" required>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="msgBody" class="form-label small fw-bold">Message</label>
+                                    <textarea id="msgBody" class="form-control contact-input" rows="4" placeholder="Tell me about what you want to build...." required></textarea>
+                                </div>
+
+                                <div class="col-12 mt-4">
+                                    <button type="submit" id="submitBtn" class="btn btn-contact-submit w-100 py-3 fw-bold">
+                                        Send Message 🚀
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+
+                        <!-- succes Alert (hidden until fetch completes) -->
+                         <div id="formSuccessMsg" class="alert alert-success mt-3 d-none text-center">
+                            🎉 Message sent successfuly! I'll be in touch soon.
+                         </div>
+
+                         <!-- error alert (if internet fails) -->
+                          <div id="formErrorMsg" class="alert alert-danger mt-3 d-none text-center">
+                            ⚠️ Network error. Please try again or message via Whatsapp.
+                          </div>
+                          
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+     <footer class="portfolio-footer pt-5 pb-4">
+        <div class="container">
+
+            <div class="footer-cta-banner p-4 p-mb-5 rounded-4 mb-5">
+                <div class="row align-items-center justify-content-center g-4">
+                    <div class="col-12 col-md-8">
+                        <span class="text-uppercase small fw-bold text-center letter-spacing">Next Step</span>
+                        <h2 class="display-6 fw-bold text-white mt-1 mb-2">Have a project in mind?</h2>
+                        <p class="text-sand mmb-0">Let's build something clean, responsive, and memeorable togehter.</p>
+                    </div>
+                    <div class="col-12 col-md-4 text-md-end">
+                        <a href="#contact" class="btn btn-footer-cta px-4 py-3 fw-bold">
+                            Get In Touch 🚀
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-5 mb-5">
+
+                <div class="col-12 col-lg-5">
+                    <a class="fotter-logo fw-bold fs-3 text-white text-decoration-none" href="#home">
+                        khalid<span class="text-accent">.Dev</span>
+                    </a>
+                    <p class="text-sand mt-3 mb-4 leading-relaxed" style="max-width: 380px;">
+                        Frontend Developer specializing in building clean, mobile-first, and interactive digital experiences with modern web technologies.
+                    </p>
+
+                    <div class="status-pill d-inline-flex align-items-center gap-2 px-3 py-1 rounded-pill">
+                        <span class="status-dot"></span>
+                        <span class="small fw-semibold text-white">Available for full-time &amp; freelance roles</span>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-6">
+                    <h6 class="text-uppercase fw-bold text-white mb-3 letter-spacing">Navigation</h6>
+                    <ul class="list-unstyled footer-links">
+                        <li class="mb-2"><a href="#home">Home</a></li>
+                        <li class="mb-2"><a href="#about">About</a></li>
+                        <li class="mb-2"><a href="#skill">SKILL</a></li>
+                        <li class="mb-2"><a href="#project">Project</a></li>
+                        <li class="mb-2"><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-lg-4">
+                    <h6 class="text-uppercase fw-bold text-white mb-3 letter-spacing">Connect</h6>
+                    <p class="text-sand small mb-3">Feel free to connect with me across platforms:</p>
+                    <div class="d-flex flex-wrap gap-2 footer-socials">
+                        <a href="https://github.com/Khaleed2480" target="_blank" class="social-box" title="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/khalid jimoh" target="_blank" class="social-box" title="linkedin">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://x.com/KhalidJimoh7" target="_blank" class="social-box" title="X (Twitter)">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@black_boi093" target="_blank" class="social-box" title="Tiktok">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <hr class="footer-divider my-4">
+
+            <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3">
+                <p class="text-sand small mb-0">
+                    &copy;<span id="footerYear"></span> Khalid Jimoh. Handcrafted with HTML, CSS, Bootstrap &amp; Javascript.
+                </p>
+
+                <button id="backToTopBtn" class="back-to-top-btn d-inline-flex align-items-center gap-2">
+                    <span>Back to top</span>
+                    <i class="fa-solid fa-arrow-up"></i>
+                </button>
+            </div>
+        </div>
+     </footer>
+
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
